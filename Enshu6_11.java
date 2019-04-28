@@ -74,7 +74,7 @@ public class Enshu6_11{
         return result;
     }
 
-    // 配列の出力用文言（a[first]：second）をバッファで作成するためのメソッド
+    // 配列の出力用文言（a[first]：second）をビルダーで作成するためのメソッド
     public static String makeStringByIntegers(int first, int second) {
         StringBuilder buff = new StringBuilder();
         buff.append("a[");
